@@ -1,0 +1,33 @@
+:root{
+    --primary-color: rgb(34, 33, 33);
+    --secondary-color: rgb(150, 0, 0);
+}
+.header{
+    background-color: var(--primary-color);
+    color: white;
+    margin: 0.5rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.button{
+    width: 7rem;
+    height: 3rem;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+body{
+    font-family: cursive;
+    background-color: var(--secondary-color);
+    margin: 0%;
+}
+.id-content{
+    border: solid black;
+    border-radius: 15px;
+    margin: 1rem 10rem 1rem 10rem;
+    color: white;
+    background-color: var(--primary-color);
+}
+.id-member{
+    margin: 0.5rem 1rem 0rem 1rem;
+}
